@@ -263,7 +263,7 @@ nav .fa-youtube {
     align-items: center;
     position: relative;
     bottom: 210px;
-    /* display: none; */
+    visibility: hidden;
 }
 
 .play-btn-hover p {
@@ -275,11 +275,18 @@ nav .fa-youtube {
     -webkit-text-fill-color: transparent;
 }
 .online-games-img .hover:hover{
-    border: 3px #FF42A5 solid;
+    filter: brightness(50%);
+    border: 3px #fc79bc solid;
     border-radius: 15px;
-    filter: brightness(30%);
 }
-
+.online-games-img:hover .play-btn-hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 210px;
+    visibility: visible;
+}
 
 /* play instantly section styles */
 .play-instantly {
@@ -461,6 +468,6 @@ footer h3 {
 
 /* Responsive styles */
 /* mobile */
-@media screen and  {
-    
+@media screen and (max-width: 576px) {
+
 }
