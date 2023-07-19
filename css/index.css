@@ -130,6 +130,7 @@ nav .fa-youtube {
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     padding: 21px 40px;
 }
+
 .banner-btn1 {
     margin-top: 40px;
     color: #FFF;
@@ -274,12 +275,14 @@ nav .fa-youtube {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.online-games-img .hover:hover{
+
+.online-games-img .hover:hover {
     filter: brightness(50%);
     border: 3px #fc79bc solid;
     border-radius: 15px;
 }
-.online-games-img:hover .play-btn-hover{
+
+.online-games-img:hover .play-btn-hover {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -466,47 +469,64 @@ footer h3 {
 /* Responsive styles */
 /* mobile */
 @media screen and (max-width: 576px) {
+
     .nav-container-div,
     .list ul,
     .banner-div,
     .we-are-gamer-container,
     .we-are-gamer-content,
     .online-games-pic-container,
-    .play-instantly-container
-    {
+    .play-instantly-container {
         flex-direction: column;
     }
+
     nav {
         margin-top: 100px;
         margin-left: 350px;
         margin-bottom: 128px;
     }
-    .banner-div{
+
+    .banner-div {
         flex-direction: column-reverse;
     }
+
     .icon-and-button-container-one,
     .icon-and-button-container-two,
-    .footer-icon
-    {
-        grid-template-columns: repeat(3,1fr);
+    .footer-icon {
+        grid-template-columns: repeat(3, 1fr);
     }
-    .banner-pic{
-        margin-left: 650px;
+
+    .banner-pic {
+        margin-left: 300px;
         margin-bottom: 128px;
     }
-    .content{
-        margin-left: 650px;
+
+    .content {
+        margin-left: 300px;
         margin-bottom: 128px;
     }
-    .we-are-gamer-pic{
+
+    .we-are-gamer-pic {
         width: 100%;
         margin-top: 700px;
-        margin-left: 650px;
+        margin-left: 300px;
     }
-    .we-are-gamer-content{
-        margin-left: 650px;
+
+    .we-are-gamer-content {
+        margin-left: 300px;
         margin-bottom: 80px;
     }
-        
-    
+
+    .online-games-title {
+        width: 576px;
+        margin-left: 250px;
+        font-size: 2rem;
+    }
+
+    .online-games-description {
+        margin-left: 250px;
+        width: 576px;
+    }
+
+
 }
