@@ -277,6 +277,7 @@ nav .fa-youtube {
 .online-games-img .hover:hover{
     border: 3px #FF42A5 solid;
     border-radius: 15px;
+    filter: brightness(30%);
 }
 
 
@@ -455,4 +456,11 @@ footer h3 {
 
 .footer p {
     margin-top: 28px;
+}
+
+
+/* Responsive styles */
+/* mobile */
+@media screen and  {
+    
 }
