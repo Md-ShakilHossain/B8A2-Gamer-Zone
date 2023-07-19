@@ -299,6 +299,13 @@ nav .fa-youtube {
     /* 166.667% */
 }
 
+.play-instantly .overflow-pic{
+    position: relative;
+    bottom: 250px;
+    right: 100px;
+
+}
+
 /* Icon and button section styles */
 .icon-and-button{
     width: 100%;
@@ -310,6 +317,13 @@ nav .fa-youtube {
     height: 80px;
     display: flex;
     align-items: center;
+}
+.img-and-btn:hover{
+    border: 2px solid rgb(241, 29, 75);
+    border-radius: 50px;
+}
+.img-and-btn a:hover{
+    color: rgb(241, 29, 75);
 }
 
 .icon-and-button a {
