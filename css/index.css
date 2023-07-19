@@ -7,6 +7,9 @@
 
 /* header styles */
 /* nav styles */
+nav{
+    margin-top: 20px;
+}
 .nav-container {
     width: 100%;
     height: 130px;
@@ -16,7 +19,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 240px;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .logo-gamer {
@@ -63,6 +67,15 @@ nav li a {
     padding: 18px 24px;
 }
 
+nav i {
+    padding: 0 10px;
+    font-size: 1.5rem;
+}
+
+nav .fa-youtube {
+    color: red;
+}
+
 /* Banner section styles */
 .banner {
     width: 100%;
@@ -73,7 +86,11 @@ nav li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    
 }
+
 
 .play-like-the {
     color: #0B0223;
@@ -116,8 +133,21 @@ nav li a {
 /* main section styles */
 /* We are gamer section */
 .we-are-gamer {
+    margin-top: 80px;
+    margin-bottom: 216px;
+    width: 100%;
+}
+.we-are-gamer-container{
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.we-are-gamer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .we-are-gamer-title {
@@ -159,7 +189,6 @@ nav li a {
     font-size: 2rem;
     font-weight: 700;
     line-height: 45px;
-    margin-bottom: 216px;
 }
 
 .we-are-gamer-pic {
@@ -223,19 +252,20 @@ nav li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .play-instantly-content {
-    width: 45%;
+    width: 50%;
 }
 
 .play-instantly-pic {
-    width: 45%;
+    width: 50%;
 }
 
 .play-instantly-pic img {
-    width: 50%;
+    width: 100%;
 }
 
 .play-instantly-title {
@@ -269,6 +299,45 @@ nav li a {
     /* 166.667% */
 }
 
+/* Icon and button section styles */
+.icon-and-button{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.img-and-btn {
+    /* width: 243px; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-and-button a {
+    padding-left: 16px;
+    text-decoration: none;
+    color: #0B0223;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.icon-and-button-container-one {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    padding-left: 8%;
+    /* padding-right: 8%; */
+}
+
+.icon-and-button-container-two{
+    margin-bottom: 145px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 12%;
+    /* padding-right: 10%; */
+}
+
 /* footer section styles */
 .footer {
     width: 100%;
@@ -293,6 +362,40 @@ footer h3 {
     align-items: flex-start;
     gap: 60px;
 }
-.footer-content li{
+
+.footer-content li {
     list-style: none;
+}
+
+.footer i {
+    font-size: 3rem;
+    color: #FFF;
+}
+
+.footer-content-text-two {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-weight: 500;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.footer-content {
+    margin-top: 75px;
+}
+
+.footer-icon {
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 40px;
+}
+
+.footer p {
+    margin-top: 28px;
 }
