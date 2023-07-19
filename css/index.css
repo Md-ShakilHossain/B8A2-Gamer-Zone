@@ -389,10 +389,7 @@ nav .fa-youtube {
     margin-top: 120px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     padding-left: 8%;
-    /* padding-right: 8%; */
 }
 
 .icon-and-button-container-two {
@@ -469,5 +466,47 @@ footer h3 {
 /* Responsive styles */
 /* mobile */
 @media screen and (max-width: 576px) {
-
+    .nav-container-div,
+    .list ul,
+    .banner-div,
+    .we-are-gamer-container,
+    .we-are-gamer-content,
+    .online-games-pic-container,
+    .play-instantly-container
+    {
+        flex-direction: column;
+    }
+    nav {
+        margin-top: 100px;
+        margin-left: 350px;
+        margin-bottom: 128px;
+    }
+    .banner-div{
+        flex-direction: column-reverse;
+    }
+    .icon-and-button-container-one,
+    .icon-and-button-container-two,
+    .footer-icon
+    {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .banner-pic{
+        margin-left: 650px;
+        margin-bottom: 128px;
+    }
+    .content{
+        margin-left: 650px;
+        margin-bottom: 128px;
+    }
+    .we-are-gamer-pic{
+        width: 100%;
+        margin-top: 700px;
+        margin-left: 650px;
+    }
+    .we-are-gamer-content{
+        margin-left: 650px;
+        margin-bottom: 80px;
+    }
+        
+    
 }
