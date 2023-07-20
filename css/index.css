@@ -469,6 +469,10 @@ footer h3 {
 /* Responsive styles */
 /* mobile */
 @media screen and (max-width: 576px) {
+    
+    .hide{
+        display: none;
+    }
 
     .nav-container-div,
     .list ul,
@@ -479,53 +483,24 @@ footer h3 {
     .play-instantly-container {
         flex-direction: column;
     }
-
-    nav {
-        margin-top: 100px;
-        margin-left: 350px;
-        margin-bottom: 128px;
+    .banner{
+        margin-top: 200px;
+        width: 100%;
     }
-
-    .banner-div {
+    .banner-pic{
+        width: 100%;
+    }
+    .banner-pic img{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .banner-div{
         flex-direction: column-reverse;
     }
-
-    .icon-and-button-container-one,
-    .icon-and-button-container-two,
-    .footer-icon {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .banner-pic {
-        margin-left: 300px;
-        margin-bottom: 128px;
-    }
-
-    .content {
-        margin-left: 300px;
-        margin-bottom: 128px;
-    }
-
-    .we-are-gamer-pic {
+    .for-mobile{
+        display: flex;
         width: 100%;
-        margin-top: 700px;
-        margin-left: 300px;
-    }
-
-    .we-are-gamer-content {
-        margin-left: 300px;
-        margin-bottom: 80px;
-    }
-
-    .online-games-title {
-        width: 576px;
-        margin-left: 250px;
-        font-size: 2rem;
-    }
-
-    .online-games-description {
-        margin-left: 250px;
-        width: 576px;
+        gap: 2px;
     }
 
 
